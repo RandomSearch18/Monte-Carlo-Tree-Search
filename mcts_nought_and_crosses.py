@@ -18,6 +18,11 @@ EMPTY = "."
 HUMAN = "X"
 AI = "O"
 
+# -----------------------------
+# AI configuration
+# -----------------------------
+SIMULATIONS = 1000
+
 
 # -----------------------------
 # Board utilities
@@ -146,7 +151,7 @@ def backpropagate(node, winner):
 # -----------------------------
 # MCTS decision
 # -----------------------------
-def mcts_move(board, simulations=200):
+def mcts_move(board, simulations):
     root = Node(deepcopy(board), AI)
 
     for _ in range(simulations):
@@ -185,7 +190,7 @@ def play():
             print("You win!")
             return
 
-        move = mcts_move(board, simulations=200)
+        move = mcts_move(board, simulations=SIMULATIONS)
         make_move(board, move, AI)
         print_board(board)
 

@@ -39,3 +39,10 @@ Not that I've noticed - win rate seems to be strongly correlated with number of 
 - Expansion - `expand(leaf)`
 - Simulation - `winner = simulate(leaf.board, leaf.player)`
 - Backpropagation - `backpropagate(leaf, winner)`
+
+## Part 2
+
+I increased the simulations count to 1,000 and it quite simply gave me a free win:
+
+![Crosses gets 4 in a row at the start of the game](free.png)
+![Crosses gets 4 in a row at the start of the game while Os just does its own thing](free-2.png)
