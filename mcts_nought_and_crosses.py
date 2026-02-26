@@ -1,3 +1,8 @@
+"""
+Monte Carlo Tree Search [py] File
+Copyright Loughborough University
+"""
+
 import random
 import math
 from copy import deepcopy
