@@ -46,3 +46,7 @@ I increased the simulations count to 1,000 and it quite simply gave me a free wi
 
 ![Crosses gets 4 in a row at the start of the game](free.png)
 ![Crosses gets 4 in a row at the start of the game while Os just does its own thing](free-2.png)
+
+I then decreased the simulations to 10 and I got the same thing
+
+![Crosses gets 4 in a row at the start of the game while Os just does its own thing (again)](free-3.png)
